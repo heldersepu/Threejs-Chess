@@ -31,7 +31,7 @@ var pieces = [];
 
 var pawn;
 
-objLoader.load("../assets/models/" + pieceInfo[0].name + ".obj", function(object) {
+objLoader.load("./assets/models/" + pieceInfo[0].name + ".obj", function(object) {
     object.traverse( function ( child ) {
 
         if (child instanceof THREE.Mesh) {
