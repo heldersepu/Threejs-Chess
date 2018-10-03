@@ -48,7 +48,7 @@ objLoader.load("./assets/models/" + pieceInfo[0].name + ".obj", function(object)
     });
 });
 
-var boardTexture = new THREE.ImageUtils.loadTexture("/assets/textures/board-pattern.png");
+var boardTexture = new THREE.ImageUtils.loadTexture("./assets/textures/board-pattern.png");
 boardTexture.repeat.set(4,4);
 boardTexture.wrapS = THREE.RepeatWrapping;
 boardTexture.wrapT = THREE.RepeatWrapping;
